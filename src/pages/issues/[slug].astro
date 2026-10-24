@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import issues from '../../data/issues.json';
+
+export function getStaticPaths() {
+  return issues.map((issue) => ({ params: { slug: issue.slug }, props: { issue } }));
+}
+
+const { issue } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const date = new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Shanghai' }).format(new Date(issue.publishedAt));
+---
+<Base title={`${issue.title} · DBDCOMP赛事简报档案`} description={issue.summary}>
+  <article class="article-shell">
+    <header class="article-header">
+      <a class="back-link" href={`${base}/`}>← 返回档案</a>
+      <p class="eyebrow">ISSUE {String(issue.volume).padStart(2, '0')} · {date}</p>
+      <h1>{issue.title}</h1>
+      <div class="byline"><span>文 / {issue.author}</span><span>整理归档</span></div>
+    </header>
+
+    <div class="article-content">
+      {issue.blocks.map((block) => {
+        if (block.type === 'image') return <figure><img src={`${base}${block.src}`} alt={block.alt} loading="lazy" /><figcaption>{block.alt}</figcaption></figure>;
+        const Tag = block.type === 'heading' ? `h${block.level}` : 'p';
+        return <Tag>{block.nodes.map((node) => node.type === 'link'
+          ? <a href={node.href} target="_blank" rel="noreferrer">{node.text}</a>
+          : node.bold ? <strong>{node.text}</strong> : node.text)}</Tag>;
+      })}
+    </div>
+
+    <footer class="article-source">
+      <div><span>原始出处</span><h2>在 B 站支持创作者</h2></div>
+      <div class="source-actions">
+        <a class="button primary" href={issue.sourceUrl} target="_blank" rel="noreferrer">阅读原文 ↗</a>
+        <a class="button ghost" href={issue.dynamicUrl} target="_blank" rel="noreferrer">查看动态</a>
+      </div>
+    </footer>
+  </article>
+</Base>

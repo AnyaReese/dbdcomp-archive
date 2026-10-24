@@ -1,0 +1,1519 @@
+[
+  {
+    "id": 53577928,
+    "slug": "vol-17",
+    "volume": 17,
+    "title": "DBDCOMP赛事简报 vol.17（AHL+大师赛+RDL）",
+    "summary": "阅前须知： 本赛事简报旨在解析赛事逻辑、科普选手背景，具有一定阅读门槛。建议不了解比赛规则等基本信息的朋友先观看此入门教学视频：杀机联赛入坑指南大全！你想知道的都在这里！​​​​​​​​​​​​​​​ 有关最新赛季AHL（万圣赛季）的详细信息，请参考新视频：杀机赛事DBDL万圣赛季即日开始！抢先了解赛程、规则与队伍情况​ [图片] 在各大赛事平稳推进的同时，我们也遗憾地看到，随着MMR的修复，许多选手的连胜挑战接连被中断：Momo的最新枯萎连胜在第1599局止于小学，这也是他的枯萎连胜第五次在接近两千局时",
+    "publishedAt": "2026-10-23T14:26:28.000Z",
+    "author": "奥奥猫与拖把狗",
+    "sourceUrl": "https://www.bilibili.com/read/cv53577928/",
+    "dynamicUrl": "https://t.bilibili.com/1262407123055149063",
+    "cover": "/images/issues/vol-17/01.jpg",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "阅前须知：",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "本赛事简报旨在解析赛事逻辑、科普选手背景，具有一定阅读门槛。建议不了解比赛规则等基本信息的朋友先观看此入门教学视频：",
+            "bold": false
+          },
+          {
+            "type": "link",
+            "text": "杀机联赛入坑指南大全！你想知道的都在这里！​​​​​​​​​​​​​​​",
+            "href": "https://www.bilibili.com/video/BV1cj5467E6F?spm_id_from=333.1369.0.0"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "有关最新赛季AHL（万圣赛季）的详细信息，请参考新视频：",
+            "bold": false
+          },
+          {
+            "type": "link",
+            "text": "杀机赛事DBDL万圣赛季即日开始！抢先了解赛程、规则与队伍情况​",
+            "href": "https://www.bilibili.com/video/BV1EGJ96YEp6?spm_id_from=333.1387.list.card_archive.click"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/issues/vol-17/01.jpg",
+        "alt": "加油啊打连胜的大哥哥！"
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "在各大赛事平稳推进的同时，我们也遗憾地看到，随着MMR的修复，许多选手的连胜挑战接连被中断：Momo的最新枯萎连胜在第1599局止于小学，这也是他的枯萎连胜第五次在接近两千局时中断；Angelz把金木连胜世界纪录刷新到了941局，而Zaka复健凛妹的个人最佳纪录达到了456。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "对于这些选手来说，",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "连胜不仅是一份直播内容，也是一份对自己实力的证明、对高质量对局的期待和对挑战者的邀请。",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "Knightlight会通过无技能无配件夹哥连胜检测MMR的变化，许多队伍的人队会通过连胜来磨合队员之间的配合协同，很多不是选手的玩家，例如致力于打破护士连胜世界纪录的Flightless，也日复一日地、坚定不移地继续着。让我们祝福他们证明自己的旅程吧！",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "——————————————————",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "nodes": [
+          {
+            "type": "text",
+            "text": "上周比赛主要结果一览",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "AHL小组赛第一周",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "作为大型比赛的第一轮，DBDL官方“雨露皆沾”地让每一支强队都匹配到了明显弱一级的队伍，导致这周的比赛结果相当没有悬念。难得能够用轻松的心态面对比赛的选手们纷纷化身大厨，从INV的队麦到X9的局内轮盘都充满了笑点。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "选手视角+官台解说指路：",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "link",
+            "text": "【DBDL AHL 2026 胜者组第一轮】X9 CLAN vs Valentines【X9/官台解说双视角】",
+            "href": "https://www.bilibili.com/video/BV1nPn56bEWK?spm_id_from=333.1387.homepage.video_card.click"
+          },
+          {
+            "type": "text",
+            "text": " ",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "link",
+            "text": "【DBDL万圣赛季第一轮】Invictushysteric【BO3威斯科+弗莱迪】",
+            "href": "https://www.bilibili.com/video/BV1nynv6QEFv?spm_id_from=333.1387.homepage.video_card.click"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/issues/vol-17/02.jpg",
+        "alt": "Damn!"
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "DBDR大师赛季后赛",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "本周的两场半决赛结果为INV和X9均以大比分2比0取胜，进入总决赛。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "INV VS PRX 第一轮3:0 第二轮3:0",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第一轮中可以看出Invictus在Zaka加入后调整了修机安排，尽管凛妹和巫妖的对局中屠夫拿到了有效击杀和干扰，却没能拖慢INV人队的电机进度。而Praxis人队在这一轮的状态相对疲软，除了V1有不少高光时刻，包括遛得Pedro巫妖连空三刀以及军团局的砸板。最后一局军团Boletar先手只拿到三挂，Praxis人队后手拼尽全力也在开门战之前只给出3挂，遗憾的是最后还是没能保平。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第二轮的3:0则让人感觉更加遗憾。抛开Obii的几次关键博弈失败不谈，Praxis人队拉扯倒角落的方式有浓郁的冬季巡回赛时期色彩，然而那个教给你们这种策略的人怎么会不知道如何反制。钉子头局中，Zaka利用红牙强大的多伤能力直接站住半场把人一挂守死，德古拉局也使用了类似的策略。即便PRX的三人残局处理得相当优秀，把KL博弈得头晕眼花，却仍然不可能像换边后的INV人队一样把挂数压缩到4台机一挂。其实Praxis的许多选手都有想要证明自己的心愿，那场冬季巡回赛的胜利也让冠军的目标不再遥不可及。但，他们现在还缺少一些东西，或许是两肋插刀的默契，或许是孤注一掷的决心。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "选手视角指路：",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "link",
+            "text": "【DBDR大师赛半决赛1/3】Invictus🆚Praxis【BO5凛妹+巫妖+军团】",
+            "href": "https://www.bilibili.com/video/BV1rjJq6RETg?spm_id_from=333.1387.homepage.video_card.click"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "link",
+            "text": "【DBDR大师赛半决赛2/3】Invictus🆚praxis【BO5鬼武士+钉子头+德古拉】",
+            "href": "https://www.bilibili.com/video/BV18Gnb6JE1H?spm_id_from=333.1387.homepage.video_card.click&vd_source=ac2b25f6c035592c1e94b2655f861a73"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "X9 VS ARI 第一轮3:1 第二轮3:2",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "这已经是X9第三次通过先输一局激发潜力了，当你认为Wispy的威斯克能够轻松拿下时他们的人队打成了4k2，当你看到Bubbo的连体婴五台三挂多伤时他们居然运营出了8s3f，当你看到Wispy的红牙钉子头只拿到5挂以为要输了的时候人队到开门都只给了一挂，可能这就是X9的魅力吧！Ariandel的人队发挥其实相当不错，但是屠夫方失误略多，连体婴的飞扑还有红牙锁链的使用都而X9在钉子头和护士局的遛鬼实在精彩，非常有观赏性。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第二轮BO3双方打得相当焦灼，也能看到ARI的状态回升。Bubbo在凛妹局拿到了相当多的挂数，而X9的终局处理也相当漂亮。军团局和叮当局中X9则出现了不小的失误，人队被Bubbo军团五刀减员，Wispy的放血流叮当也没能拿到想要的结果。ARI拿到2:1领先。下一局电锯中Swatter也较早地拿到了减员，但减员后被Wispy遛了整整两台机最终输掉wincon，给Wispy开心得蹲起起来。最后的奇点局中，X9人队在混乱的开局后成功稳住精神状态，用稳健的运营拿到6挂的成绩，而换边后Angelz即便中期被拉扯得不得不变奏，也依然有耐心地一点点找到了减员的时机和三人局的突破点，最终成功拿下这一分和整场半决赛的胜利。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "选手视角+官台解说指路：",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "link",
+            "text": "【DBDR Master Series 季后赛】X9 CLAN vs Ariandel 第一轮【X9/官台解说双视角】",
+            "href": "https://www.bilibili.com/video/BV1hhJY6fEFM?spm_id_from=333.1387.homepage.video_card.click"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "link",
+            "text": "【DBDR Master Series 季后赛】X9 CLAN vs Ariandel 第二轮【X9/官台解说双视角】",
+            "href": "https://www.bilibili.com/video/BV1G5ng6KEvQ?spm_id_from=333.1387.homepage.video_card.click&vd_source=ac2b25f6c035592c1e94b2655f861a73"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Revival积分赛",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "本周Revival也贡献了两场相当精彩的比赛。Sinners和Ariandel战成2比2平，Mercy则以2胜1负1平拿下Praxis。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Sinners其实是所有高延迟队伍（150ms以上）的缩影，夸张的刀气加快了击杀的速度，因此高延迟队伍往往倾向于选择高机动性的屠夫来扩大优势，而对方则需要通过运营让击杀对电机的影响降到最小。本周的凛妹局和电锯局中ARI输掉的原因都是被Weejason的快速击杀滚起了雪球。而枪手局和巫妖局的胜利，也归功于熟悉的电机压力+倒地位置的拉扯。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "而Praxis这周的运气和状态显然都不算好。尽管第一局金木让Mircht开门战之前只拿到三挂，后续几局的处理却都出了问题。训犬师局诡异的挡刀变多趴（当然rng也确实不好）和魔王局的挡刀挡出两个减员位都看得人十分摸不着头脑。Mircht的发挥也确实出色，作为屠夫抓住了每一波机会，人类也有遛掉Obii鬼武士一整个大招的高光表现。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "选手视角+官台解说指路：",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "link",
+            "text": "【Revival积分赛】Praxis vs Mercy【Mercy/官台解说双视角】",
+            "href": "https://www.bilibili.com/video/BV1aAnP6JEom?spm_id_from=333.1387.homepage.video_card.click&vd_source=ac2b25f6c035592c1e94b2655f861a73"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "——————————————————",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "nodes": [
+          {
+            "type": "text",
+            "text": "本周欧美赛事预告",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "本周",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "的看点是DBDR大师赛决赛，我们将再次看到Invictus和X9这两支队伍的巅峰对决",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "DBDR大师赛决赛",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Invictus VS X9",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周六10月24日凌晨5点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第一轮BO5 ",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "叮当（RPD）巫妖 连体婴 鬼武士 鬼面",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周日10月25日凌晨3点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第二轮BO5 ",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "电锯 弗莱迪 德古拉 未知恶物 奇点",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周一10月26日凌晨3点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第三轮BO5 ",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "猪妹 金木 护士 凛妹 迈叔",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "此外，周日凌晨1点有",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "Praxis VS Ariandel",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "的季军赛（BP未公布）",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "—",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "AHL小组赛第二周",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周日10月25日凌晨0点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Elysium VS Tamashi",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "德古拉 魔王 巫妖",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周日10月25日凌晨1点半",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Serein VS Petroleum",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "BO3 ",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "钉子头 金木 德古拉",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周一10月26日凌晨0点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Mercy VS Avalon",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "BO3 弗莱迪 威斯克 魔王",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周一10月26日凌晨1点半",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Praxis VS Nord",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "BO3 鬼面 巫妖 弗莱迪",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "—",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Revival积分赛",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周日10月25日凌晨2点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Mercy VS Sinners",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "BO4 老杨 兔妈 威斯克 枪手",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周日10月25日凌晨4点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Ariandel VS Petroleum",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "BO4 叮当 鬼武士 威斯克 巫妖",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周二10月27日凌晨3点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Invictus VS Elysium",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "BO4 小丑 护士 瘟疫 巴布",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "——————————————————",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "本台记者：",
+            "bold": false
+          },
+          {
+            "type": "link",
+            "text": "冬不拉和狗的空间",
+            "href": "https://space.bilibili.com/8746295"
+          },
+          {
+            "type": "link",
+            "text": "kakanon-o的空间",
+            "href": "https://space.bilibili.com/3493119649647095"
+          },
+          {
+            "type": "link",
+            "text": "深海藻球的空间",
+            "href": "https://space.bilibili.com/18794056"
+          },
+          {
+            "type": "text",
+            "text": "为您报道",
+            "bold": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53471599,
+    "slug": "vol-16",
+    "volume": 16,
+    "title": "DBDCOMP赛事简报 vol.16（AHL+大师赛+树海友谊赛）",
+    "summary": "阅前须知： 本赛事简报旨在解析赛事逻辑、科普选手背景，具有一定阅读门槛。建议不了解比赛规则等基本信息的朋友先观看此入门教学视频：杀机联赛入坑指南大全！你想知道的都在这里！​​​​​​​​​​​​​​ 有关最新赛季AHL（万圣赛季）的详细信息，请参考新视频：杀机赛事DBDL万圣赛季即日开始！抢先了解赛程、规则与队伍情况 [图片] DBDR大师赛小组赛阶段正式结束，五进四的比赛中，ELY成为唯一被淘汰的队伍。本周的生死战发生在INV与ELY之间，第一局死狗酒馆军团由于Xeno没有坚定30而只拿到5s4f，换边",
+    "publishedAt": "2026-10-16T17:06:57.000Z",
+    "author": "奥奥猫与拖把狗",
+    "sourceUrl": "https://www.bilibili.com/read/cv53471599/",
+    "dynamicUrl": "https://t.bilibili.com/1259850745611550727",
+    "cover": "/images/issues/vol-16/01.jpg",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "阅前须知：",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "本赛事简报旨在解析赛事逻辑、科普选手背景，具有一定阅读门槛。建议不了解比赛规则等基本信息的朋友先观看此入门教学视频：",
+            "bold": false
+          },
+          {
+            "type": "link",
+            "text": "杀机联赛入坑指南大全！你想知道的都在这里！​​​​​​​​​​​​​​",
+            "href": "https://www.bilibili.com/video/BV1cj5467E6F?spm_id_from=333.1369.0.0"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "有关最新赛季AHL（万圣赛季）的详细信息，请参考新视频：",
+            "bold": false
+          },
+          {
+            "type": "link",
+            "text": "杀机赛事DBDL万圣赛季即日开始！抢先了解赛程、规则与队伍情况",
+            "href": "https://www.bilibili.com/video/BV1EGJ96YEp6?spm_id_from=333.1387.list.card_archive.click"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/issues/vol-16/01.jpg",
+        "alt": "忙，忙点好啊.jpg"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "nodes": [
+          {
+            "type": "text",
+            "text": "上周比赛主要结果一览",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "DBDR大师赛小组赛阶段正式结束，",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "五进四的比赛中，ELY成为唯一被淘汰的队伍。",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "本周的生死战发生在INV与ELY之间，第一局死狗酒馆军团由于Xeno没有坚定30而只拿到5s4f，换边后虽然Kayy一遛遛穿Pedro，但后续站位问题导致Pedro打出五刀拿到减员，最终ELY人队被4k2。第二局影魔在Pedro奇怪的八挂不减员战术和双方都相当混乱的人队协同中，打成4k2的平局。第三局迈叔INV先手人队，Xeno的三阶段无心跳配件导致Dan开局秒倒，最终艰难打成4k1，但换边后Pedro控住一台99.99%的电机拿到4k2。此时2:0的比分已经让ELY无法晋级，但比赛还在继续，进入第四局凛妹，许久不上屠夫的Zaka在被手电打断节奏后有点吃拉扯，几次博弈失误导致最终只拿到四挂，即便换边后Xeno玩得非常随意也拿下了这一分。最后一局德古拉Xeno更是不知为何选择让Kekso替他上场，并不会玩这个屠夫的Kekso面对旧ETR人队宛如被戏耍的匹配屠夫，全程只拿到1挂，ELY人队也直接弃权。整场比赛就这样莫名其妙的结束了。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "选手视角（双边）指路：",
+            "bold": false
+          },
+          {
+            "type": "link",
+            "text": "【DBDR大师赛小组赛】InvictusElysium【BO5军团+影魔+迈尔斯+凛妹+德古拉】_哔哩哔哩bilibili",
+            "href": "https://www.bilibili.com/video/BV1Gqpv65Ejv?spm_id_from=333.1387.top_right_bar_window_dynamic.content.click&vd_source=ac2b25f6c035592c1e94b2655f861a73"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "在确认晋级后，",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "X9和ARI的比赛就完全成为了证明自己之战，这群美国选手甚至在赛前放话称如果被平推将会弃权季后赛。",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "搞笑的是最开始的两局让他们差点被自己奶死了。护士局携带克服难关的人类被三零导致后续非常混乱，虽然抓住了TheFallenArt的回防失误，但最后一台机99.99%没能修开。换边后Wispy更是被双疲劳+滴血冲刺的Swatter狠狠操作，好在三人局环节Wispy也抓住了人类修机顺序问题打出了4k1的平局。第二局金木Angelz发挥不佳（赛后称右键受到Lagging严重影响）只拿到4k1，人类则一波失误被送进大房地下室，导致了最终的4k2。好在X9后续找回了状态，第三局德古拉即使Note博弈全输被迅速30，X9人队还是迅速修开电机给出8s4f，换边后Angelz尽管击杀效率比Jah稍逊一筹，但借助毁于一旦成功压住电机，拿到4k0。第四局猪妹ARI人队一遛三台，但不知为何后续运营十分混乱，甚至选择不解头套冲电机，最终被4k0，换边后X9也在Jah的超秀一遛开了个好头后，通过正确的倒地位置和修机顺序，顺利3挂亮机离场。最后一把红牙钉子头，X9的运气非常不好，地图里竟然没有刷吊车（其实上把小学他们也没刷安全板），Jah还一遛倒进了地下室，但正如之前的小报所说，守尸不规范，屠夫两行泪，X9在Swatter转头控机的时候就神不知鬼不觉地把Jah救了出来，最后把4k的局打成了9s4f。换边后同样是地下室节奏，Wispy一波拦截残血+卡位拿到双趴，最终顺利4k。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "选手视角（X9）+官台解说（V1）指路：",
+            "bold": false
+          },
+          {
+            "type": "link",
+            "text": "【DBDR Master Series 小组赛】X9 CLAN vs Ariandel【X9/官台解说双视角】_哔哩哔哩_bilibili",
+            "href": "https://www.bilibili.com/video/BV1Jtpj6BErx?spm_id_from=333.788.videopod.sections&vd_source=ac2b25f6c035592c1e94b2655f861a73"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "当然，",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "即使是INV和X9，这周也都有不少莫名其妙的发挥。",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "首先是INV与Sinners的Revival League，前两局的电锯和老杨一切正常，而杰森局中，Knightlight二挂下钩直接修机被迅速发现，导致人队被4k1，换边后则迟迟无法找到减员位，被迫打到六挂才减员，最终被修开了最后一台机，也恭喜Sinners成为本周唯一一支修开了99.99%电机的队伍。德古拉局INV人队更是惊人地4台机4趴，看得解说也不禁高呼从未见过如此疯狂战绩，KL更是在直播间贴片里无声地表达了自己的心情：",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/issues/vol-16/02.png",
+        "alt": "大主播的语言艺术"
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "次日的Altrusium League总决赛同样惊人，由于此赛事许多队伍中途退赛，决赛也是和小队伍进行，因此在上期小报中都没有特地预告。然而由于一些挡刀失误、一些对刀气判断失误，一些地下室，一些秒倒，第一局竟然打平，第二局威斯克Pedro先手也只拿到8挂，第三局枯萎人队更是又被打成4k4。要不是金木局打成零挂四跑，谁知道你们是加起来拿了三百个冠军的队伍？.jpg",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "X9在Maven League小组赛阶段也差点浪出事，人队被兔妈拿了10挂紧接着被金木4k2，还好后续发现是爆Ping，重赛的成绩就变成了2s1f。在另一个美区比赛中更是由于Wispy临时请假喜提3比0变成3比2，人队甚至被迈叔4k3，真让人不知道说什么好……",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "以上赛事回放见：",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "link",
+            "text": "【Revival积分赛】Invictus🆚Sinners【BO4电锯+老杨+Jason+德古拉】",
+            "href": "https://www.bilibili.com/video/BV1A6JQ6iE7J?spm_id_from=333.1007.top_right_bar_window_dynamic.content.click"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "link",
+            "text": "【Altruism S4决赛】Invictus 🆚Aevos【BO5巫妖+威斯科+枯萎+金木】",
+            "href": "https://www.bilibili.com/video/BV1KWpR6RE44?spm_id_from=333.1007.top_right_bar_window_dynamic.content.click"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "link",
+            "text": "【Maven League #2 小组赛】X9 CLAN vs Unholy【X9队内视角】",
+            "href": "https://www.bilibili.com/video/BV16jpd6EEWM?spm_id_from=333.1007.top_right_bar_window_dynamic.content.click"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "link",
+            "text": "【LaLigaDBD 主赛段】X9 CLAN vs Genesis【X9队内视角】_哔哩哔哩bilibili_黎明杀机",
+            "href": "https://www.bilibili.com/video/BV1hmWw6HEoC?spm_id_from=333.1007.top_right_bar_window_dynamic.content.click"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "赛事结果之外，值得欣喜的是屠夫选手们纷纷开始尝试新改动的技能，机器学习+招聘启事的联动，鬼佛神龛、好戏开场均榜上有名。也期待未来的赛事中能看到更多有趣的技能选择与技能联动，增加对局的多样性与观赏性。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "——————————————————",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "nodes": [
+          {
+            "type": "text",
+            "text": "本周欧美赛事+友谊赛预告",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "本周有DBDR大师赛的BO3xBO5，赛程密集，观众朋友务必注意合理安排休息时间。",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "AHL小组赛第一周",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周日10月18日凌晨0点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Invictus VS Hysteric",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周日10月18日凌晨1点半",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "X9 VS Valentines",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周一10月19日凌晨0点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Ariandel VS Memories",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周一10月19日凌晨1点半",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Sinners VS Onyx",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "【BP除X9组为鬼面 钉子头 贞子外均未公布】",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "DBDL官方要你有何用……",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "\n",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "—",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "DBDR大师赛季后赛第一轮",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Invictus VS Praxis",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周六10月17日凌晨3点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第一轮BO5 凛妹 巫妖 军团 威斯克 枯萎",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周日10月18日凌晨1点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第二轮BO5 鬼武士 钉子头 德古拉 弗莱迪 鬼面",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周一10月19日凌晨1点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第三轮BO5 护士 巴布 影魔 金木 迈叔",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "\n",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "X9 VS Ariandel",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周六10月17日凌晨5点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第一轮BO5 威斯克 连体婴 钉子头 护士 猪妹",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周日10月18日凌晨3点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第三轮BO5 凛妹 军团 叮当 电锯 奇点",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周一10月19日凌晨3点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "第三轮BO5 未知恶物 鬼面 金木 巫妖 鬼武士",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "—",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Revival积分赛",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周日10月18日凌晨4点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Invictus VS Petroleum",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "老杨 电锯 威斯克 钉子头",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "周二10月20日凌晨2点",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "Mercy VS Praxis",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "金木 训犬师 魔王 鬼武士",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "此外，",
+            "bold": false
+          },
+          {
+            "type": "text",
+            "text": "树海与X9人队的友谊赛推迟到了",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "本周六",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "(supposed to)，期待双方的调整与进步，能够带来一场有干货、有笑点的友谊赛！",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "——————————————————",
+            "bold": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "nodes": [
+          {
+            "type": "text",
+            "text": "本台记者：",
+            "bold": false
+          },
+          {
+            "type": "link",
+            "text": "冬不拉和狗的空间",
+            "href": "https://space.bilibili.com/8746295"
+          },
+          {
+            "type": "link",
+            "text": "kakanon-o的空间",
+            "href": "https://space.bilibili.com/3493119649647095"
+          },
+          {
+            "type": "link",
+            "text": "深海藻球的空间",
+            "href": "https://space.bilibili.com/18794056"
+          },
+          {
+            "type": "text",
+            "text": "为您报道",
+            "bold": false
+          }
+        ]
+      }
+    ]
+  }
+]

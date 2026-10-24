@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import IssueCard from '../components/IssueCard.astro';
+import issues from '../data/issues.json';
+const latest = issues[0];
+const base = import.meta.env.BASE_URL;
+---
+<Base>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">DEAD BY DAYLIGHT · COMPETITIVE ARCHIVE</p>
+      <h1>雾中有迹，<br /><em>赛事有据。</em></h1>
+      <p class="hero-intro">集中整理 DBDCOMP 赛事简报：比赛脉络、队伍动态与选手表现，在这里按期归档。</p>
+      <div class="hero-actions">
+        <a class="button primary" href={`${base}issues/${latest.slug}/`}>阅读最新一期</a>
+        <a class="button ghost" href="#issues">浏览全部</a>
+      </div>
+    </div>
+    <div class="hero-poster" aria-hidden="true">
+      <div class="poster-number">{String(latest.volume).padStart(2, '0')}</div>
+      <div class="poster-lines"></div>
+      <p>LATEST<br />REPORT</p>
+    </div>
+  </section>
+
+  <section class="archive-intro" id="issues">
+    <div><p class="eyebrow">THE ARCHIVE</p><h2>近期简报</h2></div>
+    <p>当前收录 {issues.length} 期。内容按发布时间倒序排列，点击进入完整阅读。</p>
+  </section>
+
+  <section class="issue-grid">
+    {issues.map((issue) => <IssueCard issue={issue} />)}
+  </section>
+
+  <aside class="source-note">
+    <span>来源说明</span>
+    <p>本站内容整理自 B 站创作者「奥奥猫与拖把狗」。为尊重原始发布，每期页面均提供原文与动态入口。</p>
+  </aside>
+</Base>

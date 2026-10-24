@@ -1,0 +1,16 @@
+---
+const { issue } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const date = new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Shanghai' }).format(new Date(issue.publishedAt));
+---
+<article class="issue-card">
+  <a class="issue-cover" href={`${base}issues/${issue.slug}/`}>
+    <img src={`${base.replace(/\/$/, '')}${issue.cover}`} alt="" loading="lazy" />
+    <span>VOL.{String(issue.volume).padStart(2, '0')}</span>
+  </a>
+  <div class="issue-meta">
+    <p>{date}</p>
+    <h2><a href={`${base}issues/${issue.slug}/`}>{issue.title.replace(/^DBDCOMP赛事简报\s*/i, '')}</a></h2>
+    <a class="read-more" href={`${base}issues/${issue.slug}/`}>阅读本期 <span>→</span></a>
+  </div>
+</article>
