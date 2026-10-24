@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 const { title = 'DBDCOMP 赛事简报档案', description = '非官方赛事简报整理站' } = Astro.props;
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 <!doctype html>
 <html lang="zh-CN">
