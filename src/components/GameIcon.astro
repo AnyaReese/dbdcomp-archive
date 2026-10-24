@@ -1,0 +1,12 @@
+---
+const { name, class: className = '' } = Astro.props;
+---
+<svg class={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  {name === 'tally' && <>
+    <path d="m7 4-1 15M10.5 3.5 9.5 18M14 3l-1 14M17.5 4l-1 12"/>
+    <path d="M4 17 20 9" stroke-width="2.4"/>
+  </>}
+  {name === 'archive' && <><path d="M5 4h14v16H5z"/><path d="M8 8h8M8 12h8M8 16h5"/></>}
+  {name === 'fog' && <><path d="M3 8h12c2 0 2.5-3 0-3"/><path d="M5 12h14c2.5 0 2.5-3.5 0-3.5"/><path d="M3 16h11c2.5 0 2.5 3.5 0 3.5"/></>}
+  {name === 'fire' && <><path d="M12 3c1 3-2 4-1 7 1-1 2-2 3-3 3 3 4 6 2 10-1 2-3 3-5 3-4 0-7-3-6-7 .5-2 2-3 3-5 0 3 2 3 2 5 2-3 1-6 2-10Z"/><path d="M9 20h6"/></>}
+</svg>

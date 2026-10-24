@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import IssueCard from '../components/IssueCard.astro';
+import GameIcon from '../components/GameIcon.astro';
 import issues from '../data/issues.json';
 const latest = issues[0];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
@@ -15,6 +16,11 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
         <a class="button primary" href={`${base}issues/${latest.slug}/`}>阅读最新一期</a>
         <a class="button ghost" href="#issues">浏览全部</a>
       </div>
+      <ul class="hero-signals" aria-label="档案特色">
+        <li><GameIcon name="archive" /><span><b>{issues.length}</b> 期完整归档</span></li>
+        <li><GameIcon name="fog" /><span>赛事脉络整理</span></li>
+        <li><GameIcon name="fire" /><span>选手与队伍动态</span></li>
+      </ul>
     </div>
     <div class="hero-poster" aria-hidden="true">
       <div class="poster-number">{String(latest.volume).padStart(2, '0')}</div>

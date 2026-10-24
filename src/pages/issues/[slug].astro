@@ -79,10 +79,15 @@ function scheduleGroups(blocks) {
 <Base title={`${issue.title} · DBDCOMP赛事简报档案`} description={issue.summary}>
   <article class="article-shell">
     <header class="article-header">
-      <a class="back-link" href={`${base}/`}>← 返回档案</a>
-      <p class="eyebrow">ISSUE {String(issue.volume).padStart(2, '0')} · {date}</p>
+      <div class="article-meta-strip">
+        <a class="back-link" href={`${base}/`}>← 返回档案</a>
+        <div class="article-meta">
+          <p class="eyebrow">ISSUE {String(issue.volume).padStart(2, '0')} · {date}</p>
+          <span>文 / {issue.author}</span>
+          <span>整理归档</span>
+        </div>
+      </div>
       <h1>{issue.title}</h1>
-      <div class="byline"><span>文 / {issue.author}</span><span>整理归档</span></div>
     </header>
 
     <div class="reading-layout">
@@ -119,7 +124,13 @@ function scheduleGroups(blocks) {
                 </section>)}
               </div>
             </> : section.blocks.map((block) => {
-              if (block.type === 'image') return <figure><img src={`${base}${block.src}`} alt={block.alt} loading="lazy" /><figcaption>{block.alt}</figcaption></figure>;
+              if (block.type === 'image') return <figure class="article-image">
+                <button class="image-open" type="button" data-image-src={`${base}${block.src}`} data-image-alt={block.alt} aria-label={`放大查看图片：${block.alt || '赛事简报配图'}`}>
+                  <img src={`${base}${block.src}`} alt={block.alt} loading="lazy" />
+                  <span class="image-hint" aria-hidden="true">查看大图 <b>↗</b></span>
+                </button>
+                {block.alt && <figcaption>{block.alt}</figcaption>}
+              </figure>;
               const text = blockText(block);
               const subheading = section.id === 'results' && isTournamentTitle(text);
               const matchLine = section.id === 'results' && isMatch(text);
@@ -141,4 +152,33 @@ function scheduleGroups(blocks) {
       </div>
     </footer>
   </article>
+
+  <dialog class="image-lightbox" aria-label="图片预览">
+    <button class="lightbox-close" type="button" aria-label="关闭图片预览">×</button>
+    <div class="lightbox-stage"><img src="" alt="" /></div>
+    <p></p>
+  </dialog>
+
+  <script>
+    const lightbox = document.querySelector('.image-lightbox');
+    const lightboxImage = lightbox?.querySelector('img');
+    const lightboxCaption = lightbox?.querySelector('p');
+
+    document.querySelectorAll('.image-open').forEach((button) => {
+      button.addEventListener('click', () => {
+        if (!(button instanceof HTMLElement) || !(lightbox instanceof HTMLDialogElement) || !(lightboxImage instanceof HTMLImageElement)) return;
+        const src = button.dataset.imageSrc ?? '';
+        const alt = button.dataset.imageAlt ?? '';
+        lightboxImage.src = src;
+        lightboxImage.alt = alt;
+        if (lightboxCaption) lightboxCaption.textContent = alt;
+        lightbox.showModal();
+      });
+    });
+
+    lightbox?.querySelector('.lightbox-close')?.addEventListener('click', () => lightbox.close());
+    lightbox?.addEventListener('click', (event) => {
+      if (event.target === lightbox) lightbox.close();
+    });
+  </script>
 </Base>

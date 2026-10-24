@@ -39,7 +39,10 @@ const textFromNodes = (nodes = []) => nodes.map((node) => {
 
 for (const id of ids) {
   const article = await fetchArticle(id);
-  const slug = `vol-${article.title.match(/vol\.\s*(\d+)/i)?.[1] ?? id}`;
+  const volume = Number(article.title.match(/vol\.\s*(\d+)/i)?.[1] ?? 0);
+  const baseSlug = `vol-${volume || id}`;
+  const duplicateVolume = issues.some((item) => item.volume === volume && item.id !== article.id);
+  const slug = duplicateVolume ? `${baseSlug}-${article.id}` : baseSlug;
   const blocks = [];
   let imageIndex = 0;
 
@@ -70,7 +73,7 @@ for (const id of ids) {
   const issue = {
     id: article.id,
     slug,
-    volume: Number(article.title.match(/vol\.\s*(\d+)/i)?.[1] ?? 0),
+    volume,
     title: article.title,
     summary: article.summary,
     publishedAt: date,
@@ -84,8 +87,10 @@ for (const id of ids) {
 
   issues = issues.filter((item) => item.id !== issue.id);
   issues.push(issue);
-  issues.sort((a, b) => b.volume - a.volume);
-  await new Promise((resolve) => setTimeout(resolve, 1200));
+  issues.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  // Persist after every article so a later rate limit never loses completed work.
+  await writeFile(dataFile, `${JSON.stringify(issues, null, 2)}\n`);
+  await new Promise((resolve) => setTimeout(resolve, 4500));
 }
 
 await writeFile(dataFile, `${JSON.stringify(issues, null, 2)}\n`);
