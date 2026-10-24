@@ -9,6 +9,72 @@ export function getStaticPaths() {
 const { issue } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const date = new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Shanghai' }).format(new Date(issue.publishedAt));
+
+const blockText = (block) => (block.nodes ?? []).map((node) => node.text).join('').trim();
+const sectionId = (title, index) => title.includes('结果') ? 'results' : title.includes('预告') ? 'schedule' : `section-${index}`;
+const sections = [];
+let current = { id: 'intro', title: '导读', blocks: [] };
+for (const block of issue.blocks) {
+  if (block.type === 'heading') {
+    if (current.blocks.length) sections.push(current);
+    current = { id: sectionId(blockText(block), sections.length), title: blockText(block), blocks: [] };
+  } else if (!/^—{2,}$/.test(blockText(block))) {
+    current.blocks.push(block);
+  }
+}
+if (current.blocks.length) sections.push(current);
+
+const isTournamentTitle = (text) => text.length < 32 && (
+  /(?:赛|赛第一周|赛第二周|季后赛第一轮|大师赛决赛)$/.test(text) ||
+  /^(?:AHL|DBDR|Revival)/.test(text)
+);
+const isTime = (text) => /^周[一二三四五六日]/.test(text);
+const isMatch = (text) => /^[A-Za-z0-9][A-Za-z0-9 _-]{0,28}\s(?:VS|vs|🆚)\s[A-Za-z0-9][A-Za-z0-9 _-]{0,28}(?:\s.*)?$/.test(text);
+
+function scheduleGroups(blocks) {
+  const intro = [];
+  const groups = [];
+  let group;
+  let event;
+  let lastMatch = '';
+  const flushEvent = () => {
+    if (event && (event.time || event.match || event.details.length)) {
+      group?.events.push(event);
+      if (event.match) lastMatch = event.match;
+    }
+    event = undefined;
+  };
+  for (const block of blocks) {
+    const text = blockText(block);
+    if (!text || /^—+$/.test(text)) continue;
+    if (isTournamentTitle(text)) {
+      flushEvent();
+      lastMatch = '';
+      group = { title: text, events: [], notes: [] };
+      groups.push(group);
+    } else if (!group) {
+      intro.push(block);
+    } else if (isTime(text)) {
+      if (event?.time) flushEvent();
+      event ??= { time: '', match: lastMatch, inheritedMatch: Boolean(lastMatch), details: [] };
+      event.time = text;
+    } else if (isMatch(text)) {
+      if (event?.match && !event.inheritedMatch) flushEvent();
+      event ??= { time: '', match: '', inheritedMatch: false, details: [] };
+      event.match = text;
+      event.inheritedMatch = false;
+    } else if (/^(?:第[一二三]轮)?BO\d/i.test(text) || text.length < 34) {
+      event ??= { time: '', match: lastMatch, inheritedMatch: Boolean(lastMatch), details: [] };
+      event.details.push(text);
+    } else {
+      flushEvent();
+      group.notes.push(text);
+    }
+  }
+  flushEvent();
+  return { intro, groups };
+}
+
 ---
 <Base title={`${issue.title} · DBDCOMP赛事简报档案`} description={issue.summary}>
   <article class="article-shell">
@@ -19,14 +85,52 @@ const date = new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: 'long', 
       <div class="byline"><span>文 / {issue.author}</span><span>整理归档</span></div>
     </header>
 
-    <div class="article-content">
-      {issue.blocks.map((block) => {
-        if (block.type === 'image') return <figure><img src={`${base}${block.src}`} alt={block.alt} loading="lazy" /><figcaption>{block.alt}</figcaption></figure>;
-        const Tag = block.type === 'heading' ? `h${block.level}` : 'p';
-        return <Tag>{block.nodes.map((node) => node.type === 'link'
-          ? <a href={node.href} target="_blank" rel="noreferrer">{node.text}</a>
-          : node.bold ? <strong>{node.text}</strong> : node.text)}</Tag>;
-      })}
+    <div class="reading-layout">
+      <aside class="toc" aria-label="本期目录">
+        <p>本期目录</p>
+        <ol>
+          {sections.map((section, index) => <li><a href={`#${section.id}`}><span>0{index + 1}</span>{section.title}</a></li>)}
+        </ol>
+        <a class="toc-source" href={issue.sourceUrl} target="_blank" rel="noreferrer">B 站原文 ↗</a>
+      </aside>
+
+      <div class="article-content">
+        {sections.map((section, sectionIndex) => {
+          const schedule = section.id === 'schedule' ? scheduleGroups(section.blocks) : null;
+          return <section class:list={['content-section', { 'schedule-section': schedule }]} id={section.id}>
+            <div class="section-kicker"><span>0{sectionIndex + 1}</span><i></i></div>
+            <h2>{section.title}</h2>
+
+            {schedule ? <>
+              <div class="schedule-intro">{schedule.intro.map((block) => <p>{block.nodes.map((node) => node.type === 'link'
+                ? <a href={node.href} target="_blank" rel="noreferrer">{node.text}</a>
+                : node.bold ? <strong>{node.text}</strong> : node.text)}</p>)}</div>
+              <div class="schedule-groups">
+                {schedule.groups.map((group) => <section class="schedule-group">
+                  <header><span>赛事</span><h3>{group.title}</h3></header>
+                  <div class="event-list">
+                    {group.events.map((item) => <article class="event-card">
+                      <time>{item.time || '时间待定'}</time>
+                      <h4>{item.match || '对阵 / 轮次信息'}</h4>
+                      {item.details.map((detail) => <p>{detail}</p>)}
+                    </article>)}
+                  </div>
+                  {group.notes.map((note) => <p class="schedule-note">{note}</p>)}
+                </section>)}
+              </div>
+            </> : section.blocks.map((block) => {
+              if (block.type === 'image') return <figure><img src={`${base}${block.src}`} alt={block.alt} loading="lazy" /><figcaption>{block.alt}</figcaption></figure>;
+              const text = blockText(block);
+              const subheading = section.id === 'results' && isTournamentTitle(text);
+              const matchLine = section.id === 'results' && isMatch(text);
+              const Tag = subheading ? 'h3' : 'p';
+              return <Tag class:list={{ 'match-line': matchLine, 'reference-line': /指路|回放见/.test(text) }}>{block.nodes.map((node) => node.type === 'link'
+                ? <a href={node.href} target="_blank" rel="noreferrer">{node.text}</a>
+                : node.bold ? <strong>{node.text}</strong> : node.text)}</Tag>;
+            })}
+          </section>;
+        })}
+      </div>
     </div>
 
     <footer class="article-source">
